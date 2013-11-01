@@ -12,6 +12,13 @@ public class HelloWorld {
 		DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd - HH:mm:ss");
 		System.out.println(now);
 		System.out.println(dateFormat.format(now));
+		
+		System.out.println("Hello World !!!");
+		now = new Date();		
+		dateFormat = new SimpleDateFormat("yyyy/MM/dd - HH:mm:ss");
+		System.out.println(now);
+		System.out.println(dateFormat.format(now));
+		
 	}
 
 }
